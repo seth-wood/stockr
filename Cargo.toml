@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 tokio = { version = "1", features = ["full"] }
 yahoo_finance_api = "3.0.0"
+clap = { version = "4.5.37", features = ["derive"] }
